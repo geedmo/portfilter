@@ -1,6 +1,6 @@
 /* ============================================================
  * bootstrap-portfilter.js v2.3.1
- * -
+ * https://github.com/geedmo/portfilter
  * ============================================================
  * Copyright 2012 Twitter, Inc.
  *
