@@ -1,7 +1,7 @@
 Portfilter
 ===========
 
-Very Lightweight Portfolio filter for Bootstrap
+Very Lightweight Portfolio Filter for Bootstrap
 
 
 Usage
