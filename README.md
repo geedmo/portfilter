@@ -13,5 +13,5 @@ Usage
 		<tag data-tag="targetname">...
 about
 -----
-Author: Geedmo (http://geedmo.com)
-Current: 1.0
+http://geedmo.com
+
