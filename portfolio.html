@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Very Lightweight Portfolio Filter for Bootstrap</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Very Lightweight Portfolio Filter for Bootstrap">
+		<meta name="author" content="geedmo">
+		<!-- Le styles -->
+		<link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+
+		<!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+		<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+
+		<style>
+			html, body {
+				height: 100%;
+			}
+			.wrapper {
+				min-height: 100%;
+				height: auto !important;
+				height: 100%;
+				margin: 0 auto -120px;
+			}
+			.footer, .push {
+				height: 120px;
+			}
+		</style>
+	</head>
+
+	<body>
+
+		<div class="container wrapper">
+
+			<br />
+			<h2>Very Lightweight Portfolio Filter for Bootstrap</h2>
+			<hr>
+			<div class="pull-right">
+				<button class="btn btn-small btn-primary" data-toggle="portfilter" data-target="all">
+					All
+				</button>
+				<button class="btn btn-small btn-primary" data-toggle="portfilter" data-target="art">
+					Art
+				</button>
+				<button class="btn btn-small btn-primary" data-toggle="portfilter" data-target="media">
+					Media
+				</button>
+				<button class="btn btn-small btn-primary" data-toggle="portfilter" data-target="brand">
+					Brand
+				</button>
+			</div>
+			<div class="clearfix"></div>
+
+			<br />
+
+			<ul class="thumbnails gallery">
+				<li class="span3 clearfix" data-tag='brand'>
+					<div class="thumbnail">
+						<img class="to-right" alt="270x170" src="http://placehold.it/270x170" />
+						<div class="caption from-left">
+							<h4>Brand Project</h4>
+						</div>
+					</div>
+				</li>
+				<li class="span3" data-tag='art'>
+					<div class="thumbnail" >
+						<img class="to-right" alt="270x170" src="http://placehold.it/270x170" />
+						<div class="caption from-left">
+							<h4>Art Project</h4>
+
+						</div>
+					</div>
+				</li>
+				<li class="span3" data-tag='media'>
+					<div class="thumbnail">
+						<img class="to-right" alt="270x170" src="http://placehold.it/270x170" />
+						<div class="caption from-left">
+							<h4>Media Project</h4>
+
+						</div>
+					</div>
+				</li>
+				<li class="span3" data-tag='brand'>
+					<div class="thumbnail">
+						<img class="to-right" alt="270x170" src="http://placehold.it/270x170" />
+						<div class="caption from-left">
+							<h4>Brand Project</h4>
+						</div>
+					</div>
+				</li>
+				<li class="span3" data-tag='art'>
+					<div class="thumbnail" >
+						<img class="to-right" alt="270x170" src="http://placehold.it/270x170" />
+						<div class="caption from-left">
+							<h4>Art Project</h4>
+						</div>
+					</div>
+				</li>
+				<li class="span3" data-tag='media'>
+					<div class="thumbnail">
+						<img class="to-right" alt="270x170" src="http://placehold.it/270x170" />
+						<div class="caption from-left">
+							<h4>Media Project</h4>
+						</div>
+					</div>
+				</li>
+				<li class="span3 clearfix" data-tag='brand'>
+					<div class="thumbnail">
+						<img class="to-right" alt="270x170" src="http://placehold.it/270x170" />
+						<div class="caption from-left">
+							<h4>Art Project</h4>
+						</div>
+					</div>
+				</li>
+				<li class="span3" data-tag='art'>
+					<div class="thumbnail">
+						<img class="to-right" alt="270x170" src="http://placehold.it/270x170" />
+						<div class="caption from-left">
+							<h4>Project</h4>
+						</div>
+					</div>
+				</li>
+				<li class="span3" data-tag='art'>
+					<div class="thumbnail">
+						<img class="to-right" alt="270x170" src="http://placehold.it/270x170" />
+						<div class="caption from-left">
+							<h4>Art Project</h4>
+						</div>
+					</div>
+				</li>
+				<li class="span3"  data-tag='brand'>
+					<div class="thumbnail">
+						<img class="to-right" alt="270x170" src="http://placehold.it/270x170" />
+						<div class="caption from-left">
+							<h4>Brand Project</h4>
+						</div>
+					</div>
+				</li>
+				<li class="span3"  data-tag='brand'>
+					<div class="thumbnail">
+						<img class="to-right" alt="270x170" src="http://placehold.it/270x170" />
+						<div class="caption from-left">
+							<h4>Brand Project</h4>
+						</div>
+					</div>
+				</li>
+				<li class="span3" data-tag='brand'>
+					<div class="thumbnail" >
+						<img class="to-right" alt="270x170" src="http://placehold.it/270x170" />
+						<div class="caption from-left">
+							<h4>Brand Project</h4>
+						</div>
+					</div>
+				</li>
+			</ul>
+			<div class="push"></div>
+			
+
+		</div>
+
+		<!-- /container -->
+
+		<!-- Footer
+		================================================== -->
+		<footer class="footer">
+			
+			<div class="container">
+				<hr>
+				<p>
+					by Geedmo.
+				</p>
+				<p>
+					2013 &copy; All rights shared.
+				</p>
+			</div>
+		</footer>
+		<!-- Le javascript
+		================================================== -->
+		<!-- Placed at the end of the document so the pages load faster -->
+		<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+		<script src="bootstrap-portfilter.min.js"></script>
+
+	</body>
+</html>
