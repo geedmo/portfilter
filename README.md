@@ -1,4 +1,4 @@
-Portfilter
+Portfilter (unmaintained)
 ===========
 
 Very Lightweight Portfolio Filter for Bootstrap
